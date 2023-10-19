@@ -1,0 +1,14 @@
+\documentclass[letterpaper, 10pt]{article}
+\usepackage{hyperref}
+
+\begin{document}
+
+\section*{Publications}
+
+\begin{enumerate}
+{% for publication in publications %}
+    \item \textbf{ {{ publication.title}} }. \textit{ {{ publication.authors }} }. {{ publication.journal }}, {{ publication.date }}. \href{https://doi.org/{{ publication.doi }} }{DOI: {{ publication.doi }}}
+{% endfor %}
+\end{enumerate}
+
+\end{document}

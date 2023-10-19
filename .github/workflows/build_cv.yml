@@ -1,0 +1,49 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - "_data/**"
+      - "_cv/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8 # or any version you prefer
+
+      - name: Install Python dependencies
+        run: |
+          pip install jinja2 pyyaml
+
+      - name: Generate CV TeX file
+        run: python _cv/generate.py
+
+      - name: Compile TeX to PDF
+        run: |
+          sudo apt-get install -y texlive-latex-base
+          cd _cv/output
+          pdflatex resume.tex
+
+      # Optional: Upload the PDF as an artifact (useful for debugging)
+      - name: Upload PDF
+        uses: actions/upload-artifact@v2
+        with:
+          name: resume.pdf
+          path: _cv/output/resume.pdf
+
+      # Optional: Commit and push the generated PDF to the repository
+      - name: Commit and push the generated PDF
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add _cv/output/resume.pdf
+          git commit -m "Auto-generate latest CV" -a || echo "No changes to commit"
+          git push
