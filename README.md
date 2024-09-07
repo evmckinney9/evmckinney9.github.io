@@ -72,10 +72,6 @@ You can bold your name in the author list using `**Your name**`.
 
 Place your profile picture, paper images, and PDFs in the `assets/` directory.
 
-Certainly! I've added a new section called "🛠 Local Development Setup" to guide users through the process of setting up their local environment using the `make install` command. This section is placed before the "🧪 Testing Your Site Locally" section.
-
-Here's the updated README:
-
 ## 🛠️ Local Development Setup
 
 Before testing your site locally, you'll need to set up your local environment:
