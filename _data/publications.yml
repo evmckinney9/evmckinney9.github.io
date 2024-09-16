@@ -33,3 +33,16 @@
   slides: "/assets/pdf/slides_McKinney_MIRAGE.pdf"
   video: "https://www.youtube.com/watch?v=mTcAai6Y5pI"
   poster: "/assets/pdf/poster_mirage_HPCA24.pdf"
+
+- title: "Towards Error Budgeting for Superconducting Modular Quantum Architecture Designs"
+  authors: "**McKinney, E.**, Falstin, G., Yusuf, I., Agarwal, G., Hatridge, M., Jones, A.K"
+  journal: "In preparation."
+  date: "2024-09-16"
+  doi: ""
+  image: "/assets/img/crowding.png"
+  # pdf: "/assets/pdf/mckinney_crowding.pdf"
+  # github: "Pitt-JonesLab/corral-crowding"
+  # arxiv: ""
+  # slides:
+  # video:
+  poster: "assets/pdf/crowding_modq_poster.pdf"
