@@ -36,13 +36,13 @@
 
 - title: "Towards Error Budgeting for Superconducting Modular Quantum Architecture Designs"
   authors: "**McKinney, E.**, Falstin, G., Yusuf, I., Agarwal, G., Hatridge, M., Jones, A.K"
-  journal: "In preparation."
-  date: "2024-09-16"
-  doi: ""
+  # journal: "In preparation."
+  date: "2024-09-26"
+  doi: "10.48550/arXiv.2409.18262"
   image: "/assets/img/crowding.png"
-  # pdf: "/assets/pdf/mckinney_crowding.pdf"
+  pdf: "/assets/pdf/mckinney_towards.pdf"
   # github: "Pitt-JonesLab/corral-crowding"
-  # arxiv: ""
-  # slides:
+  arxiv: "2409.18262"
+  slides: "/assets/pdf/slides_yqi24.pdf"
   # video:
   poster: "assets/pdf/crowding_modq_poster.pdf"
