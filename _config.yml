@@ -9,7 +9,7 @@ repository: evmckinney9/evmckinney9.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Evan McKinney's personal homepage, a PhD student at the University of Pittsburgh. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://evm9.dev" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://evm9.dev" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-0S6658MQKV
 
 # Build settings
