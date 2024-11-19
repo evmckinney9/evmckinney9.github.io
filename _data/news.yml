@@ -1,3 +1,6 @@
+- date: "2024-11-13"
+  description: "Attended [IBM Quantum Developer Conference 2024](https://www.ibm.com/events/reg/flow/ibm/q7e1efmb/landing/page/landing)@ IBM Yorktown Heights, NY."
+
 - date: "2024-11-01"
   description: "Workshop presentation @ StableQ (MICRO)'24, Austin, TX."
 
@@ -5,7 +8,7 @@
   description: "Invited talk @ [Yale Quantum Institute](https://quantuminstitute.yale.edu/)"
 
 - date: "2024-05-20"
-  description: "Quantum Back-End Software Developer Intern @ [IBM](https://www.ibm.com/quantum), NY."
+  description: "Quantum Back-End Software Developer Intern @ [IBM Yorktown Heights](https://www.ibm.com/quantum), NY."
   
 - date: "2024-03-02"
   description: "Conference paper @ HPCA'24, Edinburgh, Scotland."
