@@ -1,3 +1,6 @@
+- date: "2025-03-17"
+  description: "Contributed talk @ APS Global Physics Summit, Annaheim, CA."
+
 - date: "2024-11-13"
   description: "Attended [IBM Quantum Developer Conference 2024](https://www.ibm.com/events/reg/flow/ibm/q7e1efmb/landing/page/landing)@ IBM Yorktown Heights, NY."
 
@@ -41,7 +44,7 @@
   description: "Received NSF Honorable Mention."
 
 - date: "2022-03-18"
-  description: "Attended APS March Meeting @ Chicago."
+  description: "Attended APS March Meeting @ Chicago, IL."
 
 - date: "2022-09-15"
   description: "Presented poster @ PQI."
@@ -50,7 +53,7 @@
   description: "Conference paper @ HPCA'23, Montreal, Canada."
 
 - date: "2023-03-22"
-  description: "Conference talk @ APS March Meeting, Las Vegas."
+  description: "Contributed talk @ APS March Meeting, Las Vegas, NV."
 
 - date: "2023-06-09"
   description: "Invited talk @ XCITe, MIT."
