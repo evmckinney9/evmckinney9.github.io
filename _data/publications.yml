@@ -45,3 +45,17 @@
   arxiv: "2409.18262"
   slides: "/assets/pdf/slides_mckinney_mm25.pdf"
   poster: "assets/pdf/crowding_modq_poster.pdf"
+
+- title: "Two-Qubit Gate Synthesis via Linear Programming for Heterogeneous Instruction Sets"
+  authors: "**McKinney, E.**, Bishop, L."
+  # journal: ""
+  date: "2025-05-01"
+  doi: "10.48550/arXiv.2505.00543"
+  image: "/assets/img/gulps.png"
+  pdf: "/assets/pdf/gulps.pdf"
+  github: "evmckinney9/hetero_isas"
+  arxiv: "2505.00543"
+  slides: "/assets/pdf/slides_ibm_gulps.pdf"
+  # video: ""
+  # poster: ""
+
