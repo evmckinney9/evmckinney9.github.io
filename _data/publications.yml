@@ -41,7 +41,7 @@
   doi: "10.48550/arXiv.2409.18262"
   image: "/assets/img/crowding.png"
   pdf: "/assets/pdf/freqallocation25.pdf"
-  github: "Pitt-JonesLab/corral-crowding"
+  github: "PITT-HATLAB/corral_crowding"
   arxiv: "2409.18262v4"
   slides: "/assets/pdf/slides_mckinney_mm25.pdf"
   poster: "assets/pdf/crowding_modq_poster.pdf"
