@@ -1,10 +1,10 @@
 name: "Evan McKinney"
 picture: "/assets/img/profile_pic.png"
 picture_hover: "/assets/img/profile_2.jpg"
-affiliation: "University of Pittsburgh"
-title: "Computer Engineering<br>PhD Candidate"
+affiliation: "Yale University"
+title: "Computer Engineering PhD"
 bio: |
-  Evan McKinney is a fourth-year PhD student at the University of Pittsburgh, co-advised by [Dr. Alex K. Jones](https://pitt-joneslab.github.io/) and [Dr. Michael Hatridge](http://hatlab.pitt.edu/index.html). He completed his undergraduate studies at Iowa State University in Computer Engineering and Physics. Evan's current research focuses on quantum computing architecture and optimizations for near-term applications.
+  Evan McKinney is a Postdoctoral Researcher at Yale University, working with [Prof. Yongshan Ding](https://www.yongshanding.com/) in Computer Science and [Prof. Robert Schoelkopf](https://rsl.yale.edu/) in Applied Physics. He earned his PhD in Computer Engineering from the University of Pittsburgh, co-advised by [Dr. Alex K. Jones](https://www.alex-k-jones.org/) and [Dr. Michael Hatridge](http://hatlab.pitt.edu/index.html), and holds undergraduate degrees in Computer Engineering and Physics from Iowa State University. Evan's research explores scalable quantum computing architectures and hybrid classical-quantum compiler techniques for superconducting platforms.
   ### Research Interests
   - Quantum hardware-software co-design
   - Quantum circuit transpilation and ISAs
