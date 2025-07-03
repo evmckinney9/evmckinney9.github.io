@@ -10,15 +10,15 @@ title: Home
   <section id="about-section">
     <h2>About Me</h2>
     <p>{{ site.data.about.bio | markdownify }}</p>
+    <div class="latest-blog">
+      <h3>My Latest Blog Post</h3>
+      <div id="latest-blog-post"></div>
+    </div>
   </section>
 
   <!-- News Section -->
   <section id="news-section">
     <h2>News</h2>
-      <div class="latest-blog">
-        <h3>My Latest Blog Post</h3>
-      <div id="latest-blog-post"></div>
-    </div>
     <ul class="news-list">
       {% assign sorted_news = site.data.news | sort: "date" | reverse %}
       {% for news_item in sorted_news limit:4 %}
