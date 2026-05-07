@@ -1,3 +1,10 @@
+- university: "Yale University"
+  role: "Guest Lecturer"
+  courses:
+    - term: "Spring 2026"
+      course: "CPSC 4490: Quantum Information Systems"
+      sort_date: "2026-01-01"
+
 - university: "University of Pittsburgh"
   role: "Graduate Teaching Fellow"
   courses:

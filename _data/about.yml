@@ -1,19 +1,35 @@
 name: "Evan McKinney"
-picture: "/assets/img/profile3.png"
-picture_hover: "/assets/img/profile_2.jpg"
+role: "Postdoctoral Researcher"
+field: "Computer Engineering"
 affiliation: "Yale University"
-title: "Computer Engineering PhD"
+picture: "/assets/img/profile.jpg"
+picture_hover: "/assets/img/profile_hover.jpg"
+picture_wide: "/assets/img/profile_wide.jpg"
+
 bio: |
-  Evan McKinney is a Postdoctoral Researcher at Yale University, working with [Prof. Yongshan Ding](https://www.yongshanding.com/) in Computer Science and [Prof. Robert Schoelkopf](https://rsl.yale.edu/) in Applied Physics. He earned his PhD in Computer Engineering from the University of Pittsburgh, co-advised by [Prof. Alex K. Jones](https://www.alex-k-jones.org/) and [Prof. Michael Hatridge](https://hatlab.yale.edu/), and holds undergraduate degrees in Computer Engineering and Physics from Iowa State University. Evan's research explores scalable quantum computing architectures and hybrid classical-quantum compiler techniques for superconducting platforms.
-  ### Research Interests
-  - Quantum hardware-software co-design
-  - Quantum circuit transpilation and ISAs
-  - Qubit coupling architectures and topologies
+  I work at the intersection of computer architecture and superconducting
+  quantum hardware, designing compilers and instruction sets that bridge the
+  gap between abstract quantum algorithms and real physical devices, including
+  contributions to the open-source Qiskit compiler stack as a
+  [Qiskit Advocate](https://qiskit.org/advocates/).
+  I collaborate with [Yongshan Ding](https://www.yongshanding.com/) in Computer
+  Science and [Robert Schoelkopf](https://rsl.yale.edu/) in Applied Physics.
+  Previously, I earned my PhD at the University of Pittsburgh, co-advised by
+  [Alex K. Jones](https://www.alex-k-jones.org/) and
+  [Michael Hatridge](https://hatlab.yale.edu/), and undergraduate degrees in
+  Computer Engineering and Physics from Iowa State University.
+
+interests:
+  - "Quantum circuit synthesis and compiler co-design"
+  - "Superconducting qubit architectures and instruction sets"
+  - "Error correction for near-term and fault-tolerant devices"
 
 emails:
   - evmckinney9@gmail.com
   - evan.mckinney@yale.edu
-github_username:  evmckinney9
+
+github_username:   evmckinney9
 linkedin_username: evm9
 google_scholar_id: Qx3TAbkAAAAJ
-orcid_id: 0000-0002-4865-5458
+orcid_id:          0000-0002-4865-5458
+blog_url:          https://blog.evm9.dev

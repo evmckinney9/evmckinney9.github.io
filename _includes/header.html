@@ -1,49 +1,62 @@
-</header>
+<aside>
+  <div class="rail-top">
+    <div class="rail-name">{{ site.data.about.name }}</div>
+    <div class="rail-handle">~ evm9</div>
+  </div>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-<header class="header">
-    <div class="header-title">
-        <h1><a href="{{ " /" }}">{{ site.data.about.name }}</a></h1>
-        <h3>{{ site.data.about.title }}</h3>
-        <h4>{{ site.data.about.affiliation }}</h4>
+  <div class="rail-photo-wrap">
+    <picture>
+      {% if site.data.about.picture_wide %}
+      <source media="(max-width: 820px)" srcset="{{ site.data.about.picture_wide | relative_url }}">
+      {% endif %}
+      <img class="primary" src="{{ site.data.about.picture | relative_url }}" alt="{{ site.data.about.name }}" decoding="async">
+    </picture>
+    <img class="hover" src="{{ site.data.about.picture_hover | relative_url }}" alt="" aria-hidden="true" loading="lazy" decoding="async">
+  </div>
+
+  <div class="rail-body">
+    <div class="rail-id">
+      {% if site.data.about.role %}
+      <div><span class="k">role</span> <span class="v">{{ site.data.about.role }}</span></div>
+      {% endif %}
+      {% if site.data.about.field %}
+      <div><span class="k">field</span> <span class="v">{{ site.data.about.field }}</span></div>
+      {% endif %}
+      {% if site.data.about.affiliation %}
+      <div><span class="k">aff</span> <span class="v">{{ site.data.about.affiliation }}</span></div>
+      {% endif %}
     </div>
 
-    <div class="figure">
-        <img src="{{site.data.about.picture}}" alt="Profile Picture" class="profile-pic">
-        <img src="{{site.data.about.picture_hover}}" alt="Profile Picture Hover" class="profile-pic-hover">
+    {% if site.data.about.emails %}
+    <div class="rail-block">
+      <div class="rail-block-title">Contact</div>
+      <p>
+        {% for email in site.data.about.emails %}
+        {{ email | replace: '@', ' [at] ' }}{% unless forloop.last %}<br>{% endunless %}
+        {% endfor %}
+      </p>
     </div>
+    {% endif %}
 
-    <div class="external-links">
-        {% if site.data.about.emails %}
-        <div>
-            {% for email in site.data.about.emails %}
-            <p class="email-line"><i class="fas fa-envelope"></i> {{ email | replace: '@', ' [at] ' }}</p>
-            {% endfor %}
-        </div>
-        {% endif %}
-
+    <div class="rail-block">
+      <div class="rail-block-title">Elsewhere</div>
+      <p>
         {% if site.data.about.github_username %}
-        <div><a href="https://github.com/{{ site.data.about.github_username }}"><i class="fab fa-github"></i> Github</a>
-        </div>
+        <a href="https://github.com/{{ site.data.about.github_username }}">github</a><br>
         {% endif %}
-
-        {% if site.data.about.linkedin_username %}
-        <div><a href="https://www.linkedin.com/in/{{ site.data.about.linkedin_username }}"><i
-                    class="fab fa-linkedin"></i> LinkedIn</a></div>
-        {% endif %}
-
         {% if site.data.about.google_scholar_id %}
-        <div><a href="https://scholar.google.com/citations?user={{ site.data.about.google_scholar_id }}"><i
-                    class="fas fa-graduation-cap"></i> Google Scholar</a></div>
+        <a href="https://scholar.google.com/citations?user={{ site.data.about.google_scholar_id }}">google scholar</a><br>
         {% endif %}
-
+        {% if site.data.about.linkedin_username %}
+        <a href="https://www.linkedin.com/in/{{ site.data.about.linkedin_username }}">linkedin</a><br>
+        {% endif %}
         {% if site.data.about.orcid_id %}
-        <div><a href="https://orcid.org/{{ site.data.about.orcid_id }}"><i class="fab fa-orcid"></i> ORCID</a></div>
+        <a href="https://orcid.org/{{ site.data.about.orcid_id }}">orcid</a><br>
         {% endif %}
-
-        {% if site.data.about.twitter_username %}
-        <div><a href="https://twitter.com/{{ site.data.about.twitter_username }}"><i class="fab fa-twitter"></i>
-                Twitter</a></div>
+        {% if site.data.about.blog_url %}
+        <a href="{{ site.data.about.blog_url }}">blog</a>
         {% endif %}
+      </p>
     </div>
-</header>
+  </div>
+</aside>
