@@ -2,7 +2,6 @@ source "https://rubygems.org"
 
 # https://pages.github.com/versions/ tracks the supported gem set on GitHub Pages.
 gem "github-pages", "~> 232", group: :jekyll_plugins
-gem "jekyll-theme-minimal"
 gem "jekyll-seo-tag"
 
 # Ruby 3.4 dropped these from stdlib.

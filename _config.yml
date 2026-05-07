@@ -15,8 +15,6 @@ url: "https://evm9.dev"
 google_analytics: G-0S6658MQKV
 
 # Build settings
-theme: jekyll-theme-minimal
-
 plugins:
   - jekyll-seo-tag
 

@@ -1,7 +1,7 @@
 # evmckinney9.github.io
 
-Source for [evm9.dev](https://evm9.dev) — my personal homepage. Jekyll site built on the
-[Minimal](https://github.com/orderedlist/minimal) theme and served from GitHub Pages.
+Source for [evm9.dev](https://evm9.dev) — my personal homepage. Jekyll site with a
+custom layout and stylesheet, served from GitHub Pages.
 
 The page content lives in `_data/`:
 
