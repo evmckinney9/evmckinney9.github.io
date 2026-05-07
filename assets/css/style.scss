@@ -432,14 +432,16 @@ footer a:hover { color: var(--ink); }
     display: flex;
     flex-direction: column;
   }
-  main         { order: 1; display: contents; }
-  .about-strip { order: 1; padding: 1.6em 1.4em 1.4em; }
-  aside        { order: 2; position: static; height: auto; }
-  .content     { order: 3; padding: 1.4em 1.4em 3em; }
+  main             { display: contents; }
+  aside            { display: contents; }
+  .rail-top        { order: 1; }
+  .rail-photo-wrap { order: 2; height: auto; aspect-ratio: 4 / 1; cursor: default; }
+  .about-strip     { order: 3; padding: 1.6em 1.4em 1.4em; }
+  .rail-body       { order: 4; background: var(--rail-bg); padding: 1.4em 1.4em 1.6em; }
+  .content         { order: 5; padding: 1.4em 1.4em 3em; }
 
   .about-strip h1 { display: block; font-size: 1.7rem; margin-bottom: 0.6em; }
   .rail-name      { display: none; }
-  .rail-photo-wrap { height: auto; aspect-ratio: 4 / 1; cursor: default; }
   .rail-photo-wrap img { object-position: center 20%; }
   .rail-photo-wrap:hover img.hover { opacity: 0; }
 }
