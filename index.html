@@ -58,6 +58,7 @@ title: Home
           {% if pub.slides %}<a href="{{ pub.slides | relative_url }}">slides</a>{% endif %}
           {% if pub.poster %}<a href="{{ pub.poster | relative_url }}">poster</a>{% endif %}
           {% if pub.github %}<a href="https://github.com/{{ pub.github }}">code</a>{% endif %}
+          {% if pub.docs %}<a href="{{ pub.docs }}">docs</a>{% endif %}
           {% if pub.arxiv %}<a href="https://arxiv.org/abs/{{ pub.arxiv }}">arxiv</a>{% endif %}
           {% if pub.video %}<a href="{{ pub.video }}">video</a>{% endif %}
         </div>
